@@ -3,7 +3,7 @@ name: Build and Publish Docker Image
 on:
   push:
     tags:
-      - 'v*'
+      - "v*"
 
 concurrency:
   group: docker-publish-${{ github.ref }}
